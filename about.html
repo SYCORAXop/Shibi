@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us — Ananya Boutique</title>
+  <meta name="description" content="The story behind Ananya Boutique — 8+ years of handcrafted women's clothing from Mumbai.">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar" id="navbar">
+  <a href="index.html" class="nav-logo">
+    <span class="logo-main">Ananya Boutique</span>
+    <span class="logo-sub">Crafted With Love</span>
+  </a>
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="about.html" class="active">About</a>
+    <a href="collection.html">Collection</a>
+    <a href="contact.html">Contact</a>
+  </div>
+  <div class="nav-actions">
+    <a href="cart.html" class="nav-cart">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>
+      Cart
+      <span class="cart-badge hidden">0</span>
+    </a>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="collection.html">Collection</a>
+  <a href="cart.html">Cart</a>
+  <a href="contact.html">Contact</a>
+</div>
+
+<!-- PAGE HERO -->
+<div class="page-wrapper">
+  <div class="page-hero">
+    <div class="page-hero-inner">
+      <span class="section-tag">Our Story</span>
+      <h1>Where Every Stitch<br><em>Tells a Story</em></h1>
+      <p>A passion for craftsmanship, a love for fashion, and eight years of bringing beautiful clothing to life — one stitch at a time.</p>
+    </div>
+  </div>
+
+  <!-- STORY SECTION -->
+  <section class="section">
+    <div class="section-inner">
+      <div class="about-story">
+        <div class="about-visual fade-in">
+          <div class="about-frame">
+            <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20.38 3.46L16 2a4 4 0 01-8 0L3.62 3.46a2 2 0 00-1.34 2.23l.58 3.57a1 1 0 00.99.84H6v10c0 1.1.9 2 2 2h8a2 2 0 002-2V10h2.15a1 1 0 00.99-.84l.58-3.57a2 2 0 00-1.34-2.23z"/>
+            </svg>
+          </div>
+          <div class="about-accent-box"></div>
+          <div class="about-accent-box-2"></div>
+          <div class="about-exp-badge">
+            <div class="num">8+</div>
+            <div class="label">Years of Craft</div>
+          </div>
+        </div>
+        <div class="about-text fade-in fade-in-delay-1">
+          <span class="section-tag">Our Journey</span>
+          <h2 class="section-title">From a Needle & Thread to a Beloved Boutique</h2>
+          <div class="ornament"><span>✦</span></div>
+          <p>Ananya Boutique was born from a simple love — the love of creating something beautiful with one's own hands. What started as stitching clothes for family and friends gradually grew into a trusted home boutique serving hundreds of women across Mumbai and beyond.</p>
+          <p>With over 8 years of tailoring experience, our founder Ananya brings a designer's eye and a craftsperson's precision to every piece. She learnt the art of stitching from her mother, and has since refined it into a professional practice that blends traditional Indian techniques with modern silhouettes.</p>
+          <p>Today, Ananya Boutique specialises in custom women's clothing — from everyday kurtis to elegant blouses and statement dresses — all stitched at home with a commitment to quality that you simply can't find in mass-produced fashion.</p>
+          <div class="services-list">
+            <div class="service-item">
+              <div class="service-icon">✂️</div>
+              <div>
+                <div class="service-name">Custom Measurement Stitching</div>
+                <div class="service-desc">Every garment tailored to your exact body measurements for a flawless fit.</div>
+              </div>
+            </div>
+            <div class="service-item">
+              <div class="service-icon">🪡</div>
+              <div>
+                <div class="service-name">Design Consultations</div>
+                <div class="service-desc">Work with us over WhatsApp to bring your design vision to life.</div>
+              </div>
+            </div>
+            <div class="service-item">
+              <div class="service-icon">👗</div>
+              <div>
+                <div class="service-name">Alterations & Repairs</div>
+                <div class="service-desc">Resize, reshape, or refresh garments you already own.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT WE OFFER -->
+  <section class="section" style="background:var(--secondary)">
+    <div class="section-inner">
+      <div class="section-header">
+        <span class="section-tag">Our Expertise</span>
+        <h2 class="section-title">What We Stitch</h2>
+        <p class="section-subtitle">From casual daily wear to wedding celebrations, we craft clothing for every occasion and every woman.</p>
+      </div>
+      <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:28px">
+        <div class="feature-card fade-in">
+          <div class="feature-icon">👘</div>
+          <h4 class="feature-title">Kurtis & Kurtas</h4>
+          <p class="feature-desc">Straight-cut, flared, asymmetric — all styles in cottons, silks, georgette, and more. Daily wear to festive.</p>
+        </div>
+        <div class="feature-card fade-in fade-in-delay-1">
+          <div class="feature-icon">🪭</div>
+          <h4 class="feature-title">Designer Blouses</h4>
+          <p class="feature-desc">Silk, brocade, mirror work, embroidery — blouses that complement every saree with elegance.</p>
+        </div>
+        <div class="feature-card fade-in fade-in-delay-2">
+          <div class="feature-icon">💃</div>
+          <h4 class="feature-title">Dresses & Gowns</h4>
+          <p class="feature-desc">Wrap dresses, A-line, flared, evening gowns — designed and stitched for your perfect silhouette.</p>
+        </div>
+        <div class="feature-card fade-in">
+          <div class="feature-icon">🎨</div>
+          <h4 class="feature-title">Custom Design Orders</h4>
+          <p class="feature-desc">Share a reference image or describe your dream outfit — we'll bring it to life exactly as you envision.</p>
+        </div>
+        <div class="feature-card fade-in fade-in-delay-1">
+          <div class="feature-icon">💍</div>
+          <h4 class="feature-title">Bridal & Occasion Wear</h4>
+          <p class="feature-desc">Lehengas, heavy blouses, anarkalis for weddings, engagements, and festivals — crafted with extra care.</p>
+        </div>
+        <div class="feature-card fade-in fade-in-delay-2">
+          <div class="feature-icon">🔧</div>
+          <h4 class="feature-title">Alterations</h4>
+          <p class="feature-desc">Resize, restyle, or repair your existing garments. We breathe new life into pieces you love.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CUSTOMIZATION OPTIONS -->
+  <section class="section">
+    <div class="section-inner">
+      <div class="section-header">
+        <span class="section-tag">Personalisation</span>
+        <h2 class="section-title">Customise Everything</h2>
+        <p class="section-subtitle">When you order from Ananya Boutique, you're in full control of how your clothing looks and feels.</p>
+      </div>
+      <div style="display:grid; grid-template-columns:repeat(2,1fr); gap:48px; align-items:center">
+        <div class="fade-in">
+          <div style="display:flex;flex-direction:column;gap:20px">
+            <div style="display:flex;gap:16px;align-items:flex-start;padding:20px;background:var(--secondary);border-radius:12px">
+              <span style="font-size:1.5rem">📏</span>
+              <div>
+                <h4 style="font-family:'Playfair Display',serif;margin-bottom:4px">Your Measurements</h4>
+                <p style="font-size:0.85rem;color:var(--text-light);line-height:1.6">Share your measurements via WhatsApp and we'll stitch to your exact body shape — not generic S/M/L sizing.</p>
+              </div>
+            </div>
+            <div style="display:flex;gap:16px;align-items:flex-start;padding:20px;background:var(--secondary);border-radius:12px">
+              <span style="font-size:1.5rem">🎨</span>
+              <div>
+                <h4 style="font-family:'Playfair Display',serif;margin-bottom:4px">Fabric & Colour Choice</h4>
+                <p style="font-size:0.85rem;color:var(--text-light);line-height:1.6">Choose from our fabric catalogue or send your own fabric. Pick colours, prints, and textures that speak to you.</p>
+              </div>
+            </div>
+            <div style="display:flex;gap:16px;align-items:flex-start;padding:20px;background:var(--secondary);border-radius:12px">
+              <span style="font-size:1.5rem">✨</span>
+              <div>
+                <h4 style="font-family:'Playfair Display',serif;margin-bottom:4px">Embellishments & Work</h4>
+                <p style="font-size:0.85rem;color:var(--text-light);line-height:1.6">Add mirror work, zari embroidery, lace trim, hand embroidery or sequin detailing to any garment.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="fade-in fade-in-delay-1" style="text-align:center;padding:40px;background:var(--primary);border-radius:16px;color:white">
+          <h3 style="font-size:1.8rem;color:white;margin-bottom:1rem">How It Works</h3>
+          <div style="display:flex;flex-direction:column;gap:20px;text-align:left">
+            <div style="display:flex;gap:16px;align-items:center">
+              <div style="width:36px;height:36px;border-radius:50%;background:var(--accent);display:flex;align-items:center;justify-content:center;font-weight:700;flex-shrink:0">1</div>
+              <span style="font-size:0.9rem;color:rgba(255,255,255,0.85)">Browse & add items to your cart, or describe a custom order</span>
+            </div>
+            <div style="display:flex;gap:16px;align-items:center">
+              <div style="width:36px;height:36px;border-radius:50%;background:var(--accent);display:flex;align-items:center;justify-content:center;font-weight:700;flex-shrink:0">2</div>
+              <span style="font-size:0.9rem;color:rgba(255,255,255,0.85)">Place your order with your contact details</span>
+            </div>
+            <div style="display:flex;gap:16px;align-items:center">
+              <div style="width:36px;height:36px;border-radius:50%;background:var(--accent);display:flex;align-items:center;justify-content:center;font-weight:700;flex-shrink:0">3</div>
+              <span style="font-size:0.9rem;color:rgba(255,255,255,0.85)">We contact you on WhatsApp to confirm details & measurements</span>
+            </div>
+            <div style="display:flex;gap:16px;align-items:center">
+              <div style="width:36px;height:36px;border-radius:50%;background:var(--accent);display:flex;align-items:center;justify-content:center;font-weight:700;flex-shrink:0">4</div>
+              <span style="font-size:0.9rem;color:rgba(255,255,255,0.85)">Your garment is crafted & delivered to your doorstep</span>
+            </div>
+          </div>
+          <a href="collection.html" class="btn btn-accent" style="margin-top:28px">Start Shopping</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MISSION -->
+  <div class="mission-section">
+    <span class="section-tag" style="color:var(--accent-light);justify-content:center;display:flex;margin-bottom:1.5rem">Our Mission</span>
+    <blockquote>To bring boutique-quality stitched clothing from home to every customer's wardrobe.</blockquote>
+    <p>— Ananya, Founder & Master Tailor</p>
+  </div>
+
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <div class="nav-logo" style="margin-bottom:1rem">
+        <span class="logo-main">Ananya Boutique</span>
+        <span class="logo-sub">Crafted With Love</span>
+      </div>
+      <p class="footer-desc">Bringing boutique-quality handcrafted clothing from our home to yours. Every stitch made with precision, care, and love for fashion.</p>
+      <div class="footer-socials">
+        <a href="#" class="social-btn"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+        <a href="#" class="social-btn"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg></a>
+        <a href="https://wa.me/919876543210" class="social-btn"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"/></svg></a>
+      </div>
+    </div>
+    <div>
+      <h4 class="footer-heading">Quick Links</h4>
+      <ul class="footer-links">
+        <li><a href="index.html">› Home</a></li>
+        <li><a href="about.html">› About Us</a></li>
+        <li><a href="collection.html">› Our Collection</a></li>
+        <li><a href="cart.html">› Cart</a></li>
+        <li><a href="contact.html">› Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4 class="footer-heading">Services</h4>
+      <ul class="footer-links">
+        <li><a href="collection.html">› Kurtis</a></li>
+        <li><a href="collection.html">› Blouses</a></li>
+        <li><a href="collection.html">› Dresses</a></li>
+        <li><a href="collection.html">› Custom Stitching</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4 class="footer-heading">Get in Touch</h4>
+      <div class="footer-contact-item"><span class="icon">📞</span><span>+91 98765 43210</span></div>
+      <div class="footer-contact-item"><span class="icon">✉️</span><span>hello@ananyaboutique.com</span></div>
+      <div class="footer-contact-item"><span class="icon">📍</span><span>Mumbai, Maharashtra</span></div>
+      <a href="https://wa.me/919876543210" class="whatsapp-btn">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        Chat on WhatsApp
+      </a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 Ananya Boutique. All rights reserved.</span>
+    <span style="color:rgba(255,255,255,0.2)">Made with ♥ for every woman</span>
+  </div>
+</footer>
+
+<button class="back-top" id="backTop" aria-label="Back to top">↑</button>
+<div id="toast" class="toast"></div>
+<script src="script.js"></script>
+</body>
+</html>
